@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Ignore private dataset files
+data/
+*.xlsx
+*.csv
+
+# Testing and editor artifacts
+.pytest_cache/
+.DS_Store
